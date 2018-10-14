@@ -6,6 +6,7 @@ class AddNinja extends Component {
     name: null,
     age: null,
     belt: null,
+    id: null
   }
   handleChange = (e) => {
     this.setState({
